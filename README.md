@@ -25,17 +25,17 @@ TestBird 崩溃分析(Artisan) Android SDK，支持Android 2.3 及以上版本�
 
 ### Step 2. 下载SDK
 
-* [下载SDK](../sdk-download.md)并解压，支持收集Java异常导致的应用崩溃
+* [下载SDK](/../master/sdk-download.md)并解压，支持收集Java异常导致的应用崩溃
     
-* 如果您的应用是基于HTML的Hybird App，还可以[下载集成HTML Plugin](../sdk-download.md)，支持收集javascript异常
+* 如果您的应用是基于HTML的Hybird App，还可以[下载集成HTML Plugin](/../master/sdk-download.md)，支持收集javascript异常
 
-* 如果您的工程有Native代码（C/C++）或者集成了其他第三方SO库，需要监控Native崩溃，建议下载Artisan的NDK动态库，[下载NDK](../sdk-download.md)
+* 如果您的工程有Native代码（C/C++）或者集成了其他第三方SO库，需要监控Native崩溃，建议下载Artisan的NDK动态库，[下载NDK](/../master/sdk-download.md)
 
 ### Step 3. 导入SDK
 
 * **Eclipse**，导入拷贝TestbirdAgent-1.0.4.jar到libs目录.
 
-![](/../masger/img/eclipse.jpg)
+![](/../master/img/eclipse.jpg)
 
 * **Android Studio**
 
