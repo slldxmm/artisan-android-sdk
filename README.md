@@ -16,7 +16,7 @@ TestBird 崩溃分析(Artisan) Android SDK，支持Android 2.3 及以上版本�
 	
 * 通过“添加应用”按钮上传应用的apk文件，添加您的新应用；
 	
-![](../img/new-app.png?raw=true)
+![](/../master/img/new-app.png)
 
 * 添加应用后，在页面下方的“崩溃分析”面板中**获取您的AppKey**，初始化SDK时需要使用；
 	
