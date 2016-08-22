@@ -20,7 +20,7 @@ TestBird 崩溃分析(Artisan) Android SDK，支持Android 2.3 及以上版本�
 
 * 添加应用后，在页面下方的“崩溃分析”面板中**获取您的AppKey**，初始化SDK时需要使用；
 	
-![](../img/android-get-appkey.png)
+![](/../master/img/android-get-appkey.png)
 
 
 ### Step 2. 下载SDK
@@ -35,7 +35,7 @@ TestBird 崩溃分析(Artisan) Android SDK，支持Android 2.3 及以上版本�
 
 * **Eclipse**，导入拷贝TestbirdAgent-1.0.4.jar到libs目录.
 
-![](../img/eclipse.jpg)
+![](/../masger/img/eclipse.jpg)
 
 * **Android Studio**
 
@@ -43,7 +43,7 @@ TestBird 崩溃分析(Artisan) Android SDK，支持Android 2.3 及以上版本�
 
 	- 打开module setting，选择dependencies页面，选择添加file dependency，选中TestbirdAgent-1.0.4.jar文件
 	
-![](../img/modulesettings.png)
+![](/../master/img/modulesettings.png)
 
 ### Step 4. 导入NDK
 
@@ -55,7 +55,7 @@ TestBird 崩溃分析(Artisan) Android SDK，支持Android 2.3 及以上版本�
 
 * 注意，集成TestBird SO库时，请只保留支持的架构SO库
 
-![](../img/import-native.png)
+![](/../master/img/import-native.png)
 
 ### Step 5. 参数配置
 在AndroidManifest.xml中添加权限：
@@ -93,7 +93,7 @@ SDK提供了崩溃测试函数。
 
 - 如果启动日志中出现"I/Testbird: testbird agent init complete."语句，则表示SDK初始化成功。
 
-![](../img/log-init.jpg)
+![](/../master/img/log-init.jpg)
 
 #### 为确保SDK正常工作，请触发一次崩溃，并检查日志和Web分析报表
 
@@ -104,7 +104,7 @@ SDK提供了崩溃测试函数。
 - 触发native crash，调用CrashManager.testNativeCrash()
 - 如果Logcat中出现"Writing unhandled exception to:"语句则表示SDK记录崩溃成功.
 
-![](../img/log-crash.jpg)
+![](/../master/img/log-crash.jpg)
 
 ## 三、符号化文件上传
 
