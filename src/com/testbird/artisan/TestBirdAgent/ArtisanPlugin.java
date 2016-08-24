@@ -1,3 +1,8 @@
+/*
+ * Copyright (C) 2016 TestBird  - All Rights Reserved
+ * You may use, distribute and modify this code under
+ * the terms of the mit license.
+ */
 package com.testbird.artisan.TestBirdAgent;
 
 import android.content.Context;
@@ -30,23 +35,23 @@ public class ArtisanPlugin {
     public static void addCustomLog(String line, int type) {
         CrashManager manager = CrashManager.getInstance();
         switch (type) {
-            case INFO:
-                manager.addInfoLog(line);
-                break;
-            case VERBOSE:
-                manager.addVerboseLog(line);
-                break;
-            case WARN:
-                manager.addWarnLog(line);
-                break;
-            case DEBUG:
-                manager.addDebugLog(line);
-                break;
-            case ERROR:
-                manager.addErrorLog(line);
-                break;
-            default:
-                break;
+        case INFO:
+            manager.addInfoLog(line);
+            break;
+        case VERBOSE:
+            manager.addVerboseLog(line);
+            break;
+        case WARN:
+            manager.addWarnLog(line);
+            break;
+        case DEBUG:
+            manager.addDebugLog(line);
+            break;
+        case ERROR:
+            manager.addErrorLog(line);
+            break;
+        default:
+            break;
         }
     }
 
