@@ -6,7 +6,7 @@
 2. 修复启动次数统计bug
 
 ## 一、快速集成
-TestBird 崩溃分析(Artisan) Android SDK，支持Android 2.3 及以上版本。
+TestBird 崩溃分析(Artisan) Android SDK，支持Android 2.3 及以上版本。[SDK及Plugin下载](http://docs.testbird.com/guide/crashanalysis/sdk-download/)
 
 集成具体方法如下:
 
